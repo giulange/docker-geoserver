@@ -13,7 +13,7 @@ ARG STABLE_PLUGIN_URL=https://liquidtelecom.dl.sourceforge.net/project/geoserver
 
 ## LandSupport customization | by Giuliano
 ARG UID=3007
-ARG GID=3003
+ARG GID=3007
 # LandSupport pre-requisites | by Giuliano
 RUN apt-get -y update; apt-get install -y apt-utils vim
 
